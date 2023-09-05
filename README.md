@@ -26,7 +26,7 @@ The repository is organized as follows:
 - **Data**: Stores input data and datasets used in the analysis.
   - `dataset.csv`:Input data with weekly sales figures for the new menu item under each promotional strategy.
 - **Outputs**: Contains generated plots, visualizations, and result files.
-- `requirements.txt`: Lists package dependencies for reproducing the analysis.
+
 
 ## Analysis Highlights
 
