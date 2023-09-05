@@ -1,90 +1,57 @@
 # Store-Sales-and-A-B-Test-Analysis.
 This repository features A/B test analysis for a fast-food restaurant's menu launch. It covers data preparation, exploratory analysis, statistical tests, modeling, and visualizations. Promotion A, with high sales and consistent growth, is recommended for a nationwide launch. Ongoing monitoring is advised.
 Store Sales and A/B Test Analysis
-Overview
-This repository contains code, data, and documentation for an A/B testing analysis to identify an optimal promotional strategy for a fast food restaurant's new menu item launch.
 
-The repository includes a Jupyter notebook walking through the data preparation, exploratory analysis, statistical testing, predictive modeling, and evaluation of results. Interactive visualizations are generated using Plotly and Bokeh.
 
-The analysis compares performance metrics across three promotional strategies tested in a sample of restaurants over a four week period. Key techniques include ANOVA testing, linear regression, and time series forecasting.
+# Store Sales and A/B Test Analysis
 
-Based on having the highest total sales and most consistent weekly growth, Promotion A is identified as the best performing strategy. The recommendation is to launch the new menu item nationwide using Promotion A.
+This repository provides a comprehensive data analysis workflow for optimizing promotional strategies using store sales data and A/B testing. The project aims to identify the most effective promotional approach for launching a new fast food menu item nationally.
 
-Ongoing monitoring is advised to ensure continued positive performance once implemented. Adjustments to the promotional mix may be required based on the data insights.
+## Repository Structure
 
-This repository provides a template for a comprehensive A/B testing analysis covering the full process from data to visualization to modeling and recommendations. The documented methodology and interpreted results offer guidance for data-driven decision making.
+The repository is organized as follows:
 
-Store Sales Analysis
-Business Context
-The Store Sales Analysis focuses on understanding the sales performance of a chain of stores. Key objectives include assessing the impact of promotions, analyzing market sizes, and identifying weekly sales trends. Time series forecasting is also conducted to predict future sales.
+- **Notebooks**: Contains Jupyter notebooks for data analysis and modeling.
+  - `sales_analysis.ipynb`: Analyzes store sales data, including market sizes, promotions, and weekly sales trends, Conducts A/B test analysis,
+  -  compares promotional strategies, and provides recommendations.
+  
+- **Data**: Stores input data and datasets used in the analysis.
+  - `dataset.csv`:Input data with weekly sales figures for the new menu item under each promotional strategy.
+- **Outputs**: Contains generated plots, visualizations, and result files.
+- `requirements.txt`: Lists package dependencies for reproducing the analysis.
 
-Data Overview
-Data Source: dataset.csv
-Columns:
-MarketID, LocationID: Store identifiers
-Promotion: A, B, or C
-Week: Weeks 1 to 4
-SalesInThousands: Weekly sales figures
-Analysis Approach
-Data Preparation and Exploration:
+## Analysis Highlights
 
-Loading the dataset.
-Creating new columns for total sales and average weekly sales.
-Dummy encoding for promotions.
-Adding a "Market Size" column based on Market IDs.
-Exploratory Data Analysis (EDA):
+- **Store Sales Analysis**:
+  - Explores weekly sales trends, market sizes, and promotions.
+  - Visualizes data using Seaborn, Plotly, and Bokeh.
+  - Conducts time series forecasting for sales prediction.
 
-Analyzing overall metrics, including total sales and average weekly sales by promotion.
-Conducting a statistical test to compare the impact of different promotions.
-Investigating total sales by market size.
-Data Visualization:
+- **A/B Test Analysis**:
+  - Compares three promotional strategies (A, B, C) over a four-week period.
+  - Utilizes ANOVA testing, linear regression, and time series forecasting.
+  - Recommends Promotion A for a nationwide launch based on performance metrics.
 
-Creating visualizations using Seaborn and Plotly Express.
-Visualizing weekly sales by promotion using a Seaborn boxplot.
-Visualizing total sales by market size using a Seaborn bar plot.
-Week-over-Week Trends Analysis:
+## Key Results
 
-Analyzing week-over-week sales trends for different promotions.
-Plotting weekly sales trends using Seaborn and Matplotlib.
-Interactive Plots with Bokeh:
+- Promotion A had the highest total sales.
+- Weekly sales under Promotion A showed steady growth.
+- Statistical tests confirmed Promotion A's effectiveness.
+- Linear regression predicted a 15% sales lift for Promotion A.
+- Forecasting predicts continued positive performance under Promotion A.
 
-Creating interactive plots using Bokeh, including a bar chart, box plot, and line chart.
-Visualizing store size vs. sales with heatmaps and size categories.
-Time Series Forecasting:
+## Recommendations
 
-Implementing time series forecasting using linear regression.
-Evaluating the forecasting model with metrics like RMSE and R-squared.
-Forecasting future sales based on the trained model.
-A/B Test Analysis
-Business Context
-The A/B Test Analysis focuses on comparing three promotional strategies (A, B, C) for a fast food restaurant's new menu item launch. The goal is to identify the most effective promotional strategy based on weekly sales data.
+- Launch the new menu item nationally using Promotion A.
+- Continuously monitor key performance indicators (KPIs).
+- Be prepared to adjust promotional strategies based on data insights.
 
-Data Overview
-Data Source: data/
-Contents:
-analysis.ipynb: Jupyter notebook with the complete analysis.
-data/: Folder containing raw input data CSV files.
-outputs/: Folder with generated plots and results.
-requirements.txt: Package dependencies.
-Key Results
-The A/B Test Analysis revealed the following key findings:
+## Next Steps
 
-Promotion A had the highest total sales.
-Weekly sales increased steadily for Promotion A.
-Statistical tests confirmed a significant difference in performance among the promotions.
-A linear model predicted a 15% sales lift for Promotion A.
-Forecasting predicted a continued positive trajectory under Promotion A.
-Recommendations
-Based on the A/B Test Analysis, the following recommendations are provided:
+- Finalize a detailed launch plan for the national roll-out.
+- Develop a real-time performance tracking dashboard.
+- Optimize the marketing mix based on ongoing results.
 
-Launch the new menu item nationally using Promotion A.
-Continue monitoring key performance indicators (KPIs) to ensure no drop-off after the launch.
-Be prepared to adjust promotional strategies quickly if data indicates a decline.
-Next Steps
-The next steps for both analyses include:
+## Author
 
-Finalizing a detailed launch plan for the national roll-out.
-Developing a dashboard to track performance metrics in real-time.
-Optimizing the marketing mix based on ongoing results.
-Author
-Your Name
+- [Your Name](https://github.com/your-username)
