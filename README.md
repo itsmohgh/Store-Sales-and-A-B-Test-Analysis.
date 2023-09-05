@@ -62,4 +62,4 @@ The repository is organized as follows:
 
 ## Author
 
-- [Your Name](https://github.com/your-username)
+- [Mohammad Ghaffaripour](https://github.com/itsmohgh)
