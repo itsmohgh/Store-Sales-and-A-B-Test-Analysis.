@@ -5,7 +5,15 @@ Store Sales and A/B Test Analysis
 
 # Store Sales and A/B Test Analysis
 
-This repository provides a comprehensive data analysis workflow for optimizing promotional strategies using store sales data and A/B testing. The project aims to identify the most effective promotional approach for launching a new fast food menu item nationally.
+The repository includes a Jupyter notebook walking through the data preparation, exploratory analysis, statistical testing, predictive modeling, and evaluation of results. Interactive visualizations are generated using Plotly and Bokeh.
+
+The analysis compares performance metrics across three promotional strategies tested in a sample of restaurants over a four week period. Key techniques include ANOVA testing, linear regression, and time series forecasting.
+
+Based on having the highest total sales and most consistent weekly growth, Promotion A is identified as the best performing strategy. The recommendation is to launch the new menu item nationwide using Promotion A.
+
+Ongoing monitoring is advised to ensure continued positive performance once implemented. Adjustments to the promotional mix may be required based on the data insights.
+
+This repository provides a template for a comprehensive A/B testing analysis covering the full process from data to visualization to modeling and recommendations. The documented methodology and interpreted results offer guidance for data-driven decision making.
 
 ## Repository Structure
 
