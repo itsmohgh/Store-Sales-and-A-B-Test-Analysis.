@@ -7,7 +7,7 @@ Store Sales and A/B Test Analysis
 
 The repository includes a Jupyter notebook walking through the data preparation, exploratory analysis, statistical testing, predictive modeling, and evaluation of results. Interactive visualizations are generated using Plotly and Bokeh.
 
-The analysis compares performance metrics across three promotional strategies tested in a sample of restaurants over a four week period. Key techniques include ANOVA testing, linear regression, and time series forecasting.
+The analysis compares performance metrics across three promotional strategies tested in a sample of restaurants over a four week period. Key techniques include linear regression, and time series forecasting.
 
 Based on having the highest total sales and most consistent weekly growth, Promotion A is identified as the best performing strategy. The recommendation is to launch the new menu item nationwide using Promotion A.
 
@@ -37,7 +37,6 @@ The repository is organized as follows:
 
 - **A/B Test Analysis**:
   - Compares three promotional strategies (A, B, C) over a four-week period.
-  - Utilizes ANOVA testing, linear regression, and time series forecasting.
   - Recommends Promotion A for a nationwide launch based on performance metrics.
 
 ## Key Results
